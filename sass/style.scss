@@ -1,0 +1,64 @@
+@import 'fonts';
+@import 'vars';
+@import 'media-queries';
+
+nav{
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: $nav-bg;
+    height: 110px;
+    width: 100%;
+}
+  
+  li {
+    float: right;
+    display: block;
+    color: $white-copy;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 1%;
+  }
+  
+  li:hover {
+    color: $light-blue;
+    border-style: solid;
+    border-color: $light-blue;
+    
+  }
+
+  h1{
+    float: left;
+    color: $white-copy;
+    margin-left: 10%;
+    text-align: center;
+    
+    span{
+      color: $light-blue;
+    }
+  }
+
+
+
+.row{
+    // img{
+    //     height: auto;
+    //     width: 100%;
+    // }
+
+    h2{
+        text-align: center;
+        border-style: solid;
+        background-color: $nav-bg;
+        color: $white-copy;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+ 
+  
