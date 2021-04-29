@@ -88,12 +88,15 @@ h3 {
   font-size: 42px;
   font-family: "NotoLight";
   text-align: center;
-  background-color: rgba(53, 63, 70, 0.7);
   color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+#navhero .herotext {
+  background: rgba(53, 63, 70, 0.7);
+  padding: 0 0.5em;
 }
 
 #services {
@@ -130,19 +133,15 @@ h3 {
   font-size: 14px;
   font-family: "NotoBold";
 }
-#portfolio ul {
-  list-style-type: none;
-  margin-top: 0%;
-  margin-left: 1%;
-  display: block;
-}
-#portfolio li {
+#portfolio ul li {
+  display: inline;
+  padding: 0.5em;
+  border: 2px solid #fff;
   font-size: 14px;
   font-family: "NotoBold";
   float: right;
-  margin-left: 1%;
 }
-#portfolio li li:hover {
+#portfolio ul li:hover {
   color: #4bcaff;
   border-style: solid;
   border-color: #4bcaff;
@@ -165,4 +164,15 @@ h3 {
 #JDS p {
   font-size: 14px;
   font-family: "NotoRegular";
+  margin-left: 2%;
+}
+#JDS h3 {
+  padding: 1%;
+  margin-left: 2%;
+}
+#JDS button {
+  font-size: 14px;
+  font-family: "NotoBold";
+  color: #fff;
+  margin-left: 2%;
 }
